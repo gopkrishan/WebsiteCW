@@ -1,0 +1,145 @@
+body { /*body style*/
+    margin: 0px;
+    padding: 0px;
+  
+}
+img{ /*image style (border)*/
+    border: 2px solid black;
+}
+
+nav#navbar {   /*style for the 'navbar' id in the nav*/
+    top:8%; 
+    bottom:3%;   
+    border: black ;
+    background: #333333;
+    text-align: center;
+    position: relative;
+
+    
+}
+button:focus {outline:0;} /*disables the default blue outline of buttons*/
+
+.navbutton { /*button style*/
+    font-family: Georgia;
+    color: #ffffff;
+    background: #333333;
+    padding: 8px 18px 8px 18px;
+    text-decoration: none;
+    border:#4d4d4d;
+    
+}
+
+.navbutton:hover { /*changes button colour when cursor is above*/
+    background: #393939;
+    text-decoration: none;
+    color: grey;
+       
+}
+#maindiv { /*style of maindiv*/
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+h1 {/*align h1 to center, which are used for titles*/
+    text-align: center;
+}
+h3{/*align h3 to center, which are used for titles*/
+    text-align: center;
+}
+ul { /**/
+    text-align:center;
+    list-style-type: none;  
+}
+.menuitem { /*button style*/
+    font-family: Georgia;
+    color: #ffffff;
+    background: #333333;
+    text-decoration: none;
+    border: white;
+    margin-left: 1em;
+
+}
+.menuitem:hover { /*changes button colour when the cursor is above the button*/
+    background: #393939;
+    text-decoration: none;
+    color: grey;
+}
+#home {  /*wrapping box for home div*/
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+#gallery { /*wrapping box for gallery div*/
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+#galleryimg{ /*make images in gallery aligned to center*/
+    text-align: center;
+}
+#facilities { /*wrapping box for facilities div*/
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+#comments { /*wrapping box for comments div*/
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+#roomandservices { /*wrapping box for room and services div*/
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+#roomnum1{ /*wrapping box around the first type of room*/
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+#roomnum2{ /*wrapping box around the second type of room*/
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+#roomnum3{ /*wrapping box around the third type of room*/
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+
+#contactus { /*wrapping box for contact us*/
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}        
+
+#textbox:focus {outline:0;} /*removes default blue outline from comment TEXT box*/
+#textbox { /*style for the comment box, disable the ability for user to resize it, which could break the layout*/
+    width: 100%;
+    resize: none;
+}
+#namebox:focus {outline:0;}  /*removes default blue outline from comment NAME box*/
+#namebox{
+    width: 30%;
+    margin-bottom:1px;    
+}
+footer { /*footer style*/
+    position: relative;
+    text-align: center;
+    bottom:0 ;   
+    border:black ;
+    background: #333333;
+    color: #ffffff; 
+    font-size: small;
+}

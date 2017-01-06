@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OK Hotel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- website's javascript, css and link to jquery below -->
+		<link rel="stylesheet" href="hotelcss.css" type="text/css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="hoteljscript.js" type="text/javascript"></script>
+        <!-- Fancybox plugin JavaScript and CSS below-->
+		<link rel="stylesheet" href="jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="jquery.fancybox.pack.js?v=2.1.5"></script> 
+    </head>
+    <body>        
+        <header>
+            <nav id="navbar">
+                <ul>
+                    <li> <!-- each button uses a javascript function to change the content inside the #maindiv -->
+                        <button class="navbutton" onclick="getHomepage()">Home</button>
+                        <button class="navbutton" onclick="getGallery()">Gallery</button>
+                        <button class="navbutton" onclick="getFacilities()">Facilities</button>
+                        <button class="navbutton" onclick="roomandservices()">Rooms and Services</button>
+						<button class="navbutton" onclick="getComments()">Comments</button>
+                        <button class="navbutton" onclick="contactus()">Contact us</button>
+                    </li>           
+                </ul>
+            </nav>
+         </header>    
+        
+        
+        <div id="maindiv"> <!-- content is inside of this div --> 
+            <div id="home"> <!-- default content that the user sees when they enter the website-->
+                <ul> 		<!-- the content below is changed by javascript functions-->
+                    <li><a class="fancybox" rel="group" href="images/alanya_1.jpg"><img src="images/thumbs/alanya_1_thumb.jpg" alt="Alanya Image 1" /></a> 
+							<!--proper code to use Fancybox plugin for the images, gives an error on HTML validation (might not be compatible with certain web-browsers)-->
+						<a class="fancybox" rel="group" href="images/alanya_2.jpg"><img src="images/thumbs/alanya_2_thumb.jpg" alt="Alanya Image 2" /></a>
+                        <a class="fancybox" rel="group" href="images/alanya_3.jpg"><img src="images/thumbs/alanya_3_thumb.jpg" alt="Alanya Image 3" /></a>
+                    </li>
+                </ul>    
+                <h1>Welcome to OK Hotel</h1>
+                
+                <p>OK is located in the heart of the Medditeranean Turkey in Alanya. There is an extremely characteristic, quite and lively area within short walk distance to all sites and is surrounded by the extraordinary beauty of churches, buildings, shops and monuments. OK Hotel is part of a lovingly restored 1800 palace.</p>
+                <p>On entering this charming hotel in Alanya, you will immediately sense its special intimate atmosphere that makes you feel like being in your own palace.  Each detail has been passionately chosen and each room deserves a visit. OK Hotel style mixes valuable antiques and original art with an unexpected eclectic contemporary twist.</p>
+
+                <p>The special charm and the cosy mood of OK Hotel will make you feel like in an ancient palace.</p>
+                <p>Step into a world of ease, comfort and Turkish hospitality at OK Hotel. Located in a walking distance to the town center, famous shopping centers and night clubs, the hotel is overlooking beautiful sandy beaches and ancient fortress of Alanya.  The all-inclusive OK Hotel boasts a private stretch of sandy beach along the Mediterranean Sea and a rooftop restaurant overlooking Beaches of Alanya.</p>
+            
+                <p>All spacious rooms at OK Hotel are renovated in 2012 and they are all air-conditioned and feature private balconies, free Wi-Fi and satellite TV. Many rooms offer uninterrupted sea views. Various room setups are available at your request such as double or Twin rooms, Triple rooms, Family rooms,Jr. Suites, Family Suites.</p>
+                <p>The buffet restaurant serves a mix of European and Turkish cuisines and boasts a stunning panoramic views of Alanya. Complimentary snacks and drinks are served all day in the private beach area, Pool bar and Corner Restaurant offering a Snack buffet and Pide/Pizza variations.</p>  
+                <p>Guests can relax in OK Hotel sauna and Turkish bath, or enjoy a traditional foam massage. OK Hotel has a large outdoor pool and terrace. Cleopatra Beach is a 10-minute drive from OK Hotel and a bus stop is located right in front of the hotel.</p>
+            </div>      
+			<!-- the content is changed only until this line -->
+        </div>
+        <footer>Made by Abdulrahman Gharawi and Kiril Chomaniuk - 2015 - Computing Sciences - Web-Based Programming</footer> <!-- basic html for the footer, uses CSS to stay below wrapping boxes of each div-->
+        
+    
+    
+    </body>
+    
+    
+</html>
