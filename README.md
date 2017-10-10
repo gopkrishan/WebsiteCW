@@ -29,18 +29,6 @@ developers or maintainers of the site
 (any in-line style tags or formatting attributes will be penalised); the JavaScript needed for the third part
 of the assignment should all be in external scripts.
 
-# Coursework Assignment - Assembly Language Programming
-#### School of Computing Science, University of East Anglia
----
-The purpose of this assignment is to help learn about computer architecture, assembly language programming, and testing strategies. It also will give you the opportunity to learn more about the GNU/Unix programming tools, especially vi, bash, make, gcc, and gas for C and assembly language programs.
-
-  - Exercise 1a: Test mywc.c: Write a makefile to build mywc.c and then write a bash script named results.sh that acceptsa flag -r followed by the name of a command to run and a flag -f followed by a list offile names to print. e.g. results.sh -r "./mywc < proverb.txt" -f "results.sh mywc.c makefile"
-  - Exercise 1b: Translate to Assembly Language: Translate mywc.c into assembly language, thus creating a file named mywc.s. If necessary, it is acceptable to use global (i.e. bss section or data section) variables in mywc.s. Translate the C code statement-by-statement and document the code by including the original source code statements as comments.
-  - Exercise 2a: Add BigInt Objects Using C Code: Write a makefile to build the program with no optimization and then use the bash script.
-  - Exercise 2b: Add BigInt Objects Using C Code with Compiler Optimization: Write a makefile to build the program using optimization. Specifically, specify the -D NDEBUG option so the preprocessor disables the assert macro, and the -O3 option so the compiler generates optimized code. 
-  - Exercise 2c: Add BigInt Objects Using Assembly Language Code: Use the AARM32 A32 ARM instruction set. Manually translate the C code in the bigintadd.c file into assembly language, thus creating the file bigintadd.s. You need not translate the code in other files into assembly language.
-  - Exercise 2d: Add BigInt Objects Using Optimized Assembly Language Code: Use the AARM32 A32 or AARM32 T32 ARM instruction set. Manually optimize assembly language code in bigintaddopt.s, thus creating the file bigintaddopt.s.
-
 # Notes
 ---
 I decided to try and use Git (and GitHub) during my courseworks in order to get more accustomed to the revision/versioning system. During my next projects and courseworks, I will try to make better assumptions and comments during my commits.
